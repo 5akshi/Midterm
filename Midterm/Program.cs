@@ -9,7 +9,7 @@ public class InventoryItem
     public int QuantityInStock { get; set; }
 
     // Constructor
-    public InventoryItem(string itemName, int itemId, double price, int quantityInStock)
+    public InventoryItem (string itemName, int itemId, double price, int quantityInStock)
     {
         ItemName = itemName;
         ItemId = itemId;
@@ -22,7 +22,7 @@ public class InventoryItem
     // Update the price of the item
     public void UpdatePrice(double newPrice)
     {
-        Price = newPrice;
+         Price = newPrice;
     }
 
     // Restock the item
