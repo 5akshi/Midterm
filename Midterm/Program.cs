@@ -57,8 +57,6 @@ public class InventoryItem
     
     public void PrintDetails()
     {
-        Console.WriteLine("Welcome to the InventoryItem:");
-
         Console.WriteLine($"Item Name: {ItemName}");
         Console.WriteLine($"Item ID: {ItemId}");
         Console.WriteLine($"Price: {Price:C}");
@@ -79,6 +77,9 @@ class Program
         // Example tasks:
 
         Console.WriteLine("Welcome to the InventoryItem:");
+        Console.WriteLine();
+
+        Console.WriteLine("Below are the details of stocking to the InventoryItem:");
         Console.WriteLine();
 
         // 1. Print details of all items.
