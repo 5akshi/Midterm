@@ -34,7 +34,7 @@ public class InventoryItem
     // Sell an item
     public void SellItem(int quantitySold)
     {
-        if (quantitySold <= QuantityInStock)
+        if (quantitySold <= QuantityInStock) 
         {
             QuantityInStock -= quantitySold;
         }
